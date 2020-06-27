@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+}
+
+body {
+	font-family:'游ゴシック','Futura',sans-serif;
+	height: 100%;
+	margin: 0;
+	background-image: url(../img/bg.jpg);
+	background-repeat:round;
+}
+table{
+	margin: 0 auto;
+}
+
+h1{
+	font-family: 'CooperBlack';
+	color: #000;
+	font-size: 40px;
+	margin: 20px 0 20px 20px;
+}
+
+h2{
+	font-weight: bold;
+}
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*--- ページ基本デザイン ---*/
+#wrapper {
+	width:1000px;
+	margin: 0 auto;
+	position:relative;
+}
+
+.header{
+	margin: 30px auto;
+}
+
+#logo_wrapper{
+	cursor: pointer;
+}
+
+.logo{
+	height:100px;
+	width:300px;
+}
+
+.center{
+	display: block;
+    margin: 0 auto;
+}
+
+#form {
+	padding: 20px;
+	margin: 10px 0 40px 0;
+}
+
+#form h1{
+	font-size: 40px;
+	font-weight: bold;
+	border-left: 10px solid #000;
+	border-bottom: 1px solid #000;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+
+#form p{
+	text-align: center;
+}
+
+#login .error{
+	color: red;
+}
+
+#login_form {
+	height: 200px;
+	margin: 0 auto;
+}
+
+#login_form form{
+	margin: 0 0 25px;
+}
+
+#login_form table{
+	border-collapse: collapse;
+	border: 2px solid #000;
+}
+
+#login_form th{
+	font-weight: bold;
+	padding: 5px 10px;
+	border: 2px solid #000;
+	background-color: #fafad2;
+}
+
+#login_form td{
+	padding: 5px 10px;
+	border: 2px solid #000;
+}
+
+#login_form p{
+	margin: 20px;
+	text-align: center;
+}
+
+#footer{
+	width: 1024px;
+	margin-top:50px;
+	border-top: 2px solid #000;
+}
+
+#footer p{
+	padding: 5px 0;
+	float: right;
+}

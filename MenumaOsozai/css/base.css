@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+}
+
+body {
+	font-family:'游ゴシック','Futura',sans-serif;
+	height: 100%;
+	margin: 0;
+	background-image: url(../img/bg.jpg);
+	background-repeat:round;
+}
+table{
+	margin: 0 auto;
+}
+
+h1{
+	font-family: 'CooperBlack';
+	color: #fafad2;
+	font-size: 22px;
+	margin: 10px 0 10px 10px;
+	font-weight: 700;
+}
+
+h2{
+	font-weight: bold;
+}
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*--- ページ基本デザイン ---*/
+#outerFrame {
+	margin: auto;
+	max-width: 1024px;
+	padding: 0 5px;
+}
+
+.header {
+	margin: 30px auto;
+}
+
+#logout {
+	float:right;
+	cursor: pointer;
+	border-radius: 5px;
+	border-width: 2px;
+	border-style: solid;
+}
+
+#logo_wrapper{
+	cursor: pointer;
+}
+
+.logo{
+	height:100px;
+	width:300px;
+}
+
+.center{
+	display: block;
+	margin: 0 auto;
+}
+
+ul#menu{
+	width: 1024px;
+	margin-top: 20px;
+	border-radius: 15px;
+	border-width: 2px;
+	border-style: solid;
+	background-color: rgba(0,0,0,.5);
+}
+
+ul#menu li {
+	display: inline-block;
+	line-height: 50px;
+	margin: 0 42px;
+	text-align: center;
+	cursor: pointer;
+}
+
+ul#menu li a{
+	font-size: 15px;
+	color: #fafad2;
+}
+
+#innerFrame {
+	border-radius: 15px;
+	border-width: 2px;
+	border-style: solid;
+	background-color: rgba(0,0,0,.5);
+}
+
+#centerFrame {
+	margin: 15px 20px 5px 20px;
+	text-align: left;
+}
+
+#banner {
+	width: 100%;
+}
+
+#banner_wrapper {
+	position: relative;
+}
+
+.readMore {
+	color:#fafad2
+}
+
+.product{
+	border: 1px solid #eaeaec;
+	margin: -1px 19px 3px -1px;
+	padding: 10px;
+	text-align: center;
+	background-color: #efefef;
+}
+
+table, th, tr{
+	text-align: center;
+}
+
+.title2{
+	text-align: center;
+	color: #66afe9;
+	background-color: #efefef;
+	padding: 2%;
+}
+
+h2 {
+	text-align: center;
+	color: #66afe9;
+	background-color: #efefef;
+	padding: 2%;
+}
+
+table th{
+	background-color: #efefef;
+}
+
+img.menu_img {
+width: 150px;
+height: 150px;
+}
+
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.shopping-cart{
+	padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.element_width{
+  width:50%;
+}
+
+.price-details h6{
+	text-align: center;
+  padding: 3% 2%;
+}
+
+.border {
+margin: 30px 30px;
+padding: 10px;
+border: medium solid #000;
+}
+
+#footer{
+	width: 1024px;
+	margin-top:50px;
+	border-top: 2px solid #000;
+}
+
+#footer p{
+	padding: 5px 0;
+	float: right;
+}
